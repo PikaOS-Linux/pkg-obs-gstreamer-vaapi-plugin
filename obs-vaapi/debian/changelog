@@ -1,0 +1,29 @@
+obs-gstreamer-vaapi-plugin (0.3.4.git-99pika1) kinetic; urgency=medium
+
+  * Rebrand to PikaOS
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+obs-gstreamer-vaapi-plugin (0.3.4-git.99nobara4) kinetic; urgency=low
+
+  * add missing gst deps.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Fri, 14 Oct 2022 18:09:00 +0300
+
+obs-gstreamer-vaapi-plugin (0.3.4-git.99nobara3) kinetic; urgency=low
+
+  * Fix vaapi depends.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Fri, 14 Oct 2022 18:09:00 +0300
+
+obs-gstreamer-vaapi-plugin (0.3.4-git.99nobara2) kinetic; urgency=low
+
+  * Make the package depend on obs-studio instead of libobs.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Fri, 14 Oct 2022 18:02:00 +0300
+
+obs-gstreamer-vaapi-plugin (0.3.4-git-99nobara1) kinetic; urgency=low
+
+  * Initial release.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Fri, 14 Oct 2022 14:47:00 +0300

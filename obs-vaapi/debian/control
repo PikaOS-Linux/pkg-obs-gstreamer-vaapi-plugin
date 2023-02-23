@@ -1,0 +1,12 @@
+Source: obs-gstreamer-vaapi-plugin
+Section: video
+Priority: optional
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf, quilt, meson, cmake, gcc, libobs-dev, libgstreamer1.0-dev, libgst-dev, libgstreamer-plugins-bad1.0-dev, libpci-dev, libappstream-glib-dev
+Homepage: https://github.com/fzwoch/obs-vaapi
+
+Package: obs-gstreamer-vaapi-plugin	
+Architecture: amd64
+Depends: libc6, libglib2.0-0, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libpci3, obs-studio, gstreamer1.0-vaapi, libgstreamer-plugins-bad1.0-0, gstreamer1.0-libav, gstreamer1.0-plugins-bad 
+Description: Gstreamer VAAPI encoder for OBS
+

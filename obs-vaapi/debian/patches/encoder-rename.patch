@@ -1,0 +1,14 @@
+diff -uraN a/obs-vaapi.c b/obs-vaapi.c
+--- a/obs-vaapi.c	2022-10-14 17:34:42.000000000 +0300
++++ b/obs-vaapi.c	2022-10-14 17:54:33.364706110 +0300
+@@ -26,8 +26,8 @@
+ #include <gst/video/video.h>
+ #include <pci/pci.h>
+ 
+-#define ENCODER_TYPE_DATA_H264 "VAAPI H.264"
+-#define ENCODER_TYPE_DATA_H265 "VAAPI H.265"
++#define ENCODER_TYPE_DATA_H264 "GPU: AMD/Intel VAAPI H.264"
++#define ENCODER_TYPE_DATA_H265 "GPU: AMD/Intel VAAPI H.265/HEVC"
+ 
+ OBS_DECLARE_MODULE()
+ 
