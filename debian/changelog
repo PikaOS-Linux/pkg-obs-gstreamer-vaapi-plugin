@@ -1,3 +1,9 @@
+obs-gstreamer-vaapi-plugin (0.3.4.git-99pika1-lunar) lunar; urgency=medium
+
+  * Update to lunar
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 obs-gstreamer-vaapi-plugin (0.3.4.git-99pika1) kinetic; urgency=medium
 
   * Rebrand to PikaOS
