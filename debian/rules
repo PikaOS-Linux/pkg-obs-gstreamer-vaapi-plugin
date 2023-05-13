@@ -2,7 +2,7 @@
 
 override_dh_auto_configure:
 %:
-		_auto_configure -- --prefix=/usr/lib/obs-plugins --buildtype=release
+		dh_auto_configure -- --prefix=/usr/lib/obs-plugins --buildtype=release
 
 
 
