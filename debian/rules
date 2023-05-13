@@ -2,8 +2,8 @@
 
 override_dh_auto_configure:
 %:
-		dh  $@ --buildsystem=meson --with quilt
-lh_auto_configure -- --prefix=/usr/lib/obs-plugins --buildtype=release
+		_auto_configure -- --prefix=/usr/lib/obs-plugins --buildtype=release
+
 
 
 %:
