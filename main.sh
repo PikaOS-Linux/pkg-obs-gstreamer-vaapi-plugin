@@ -2,7 +2,7 @@
 set -e
 
 # Clone Upstream
-git clone https://github.com/fzwoch/obs-vaapi
+git clone https://github.com/fzwoch/obs-vaapi -b 0.4.1
 cp -rvf ./debian ./obs-vaapi/
 cd ./obs-vaapi
 
